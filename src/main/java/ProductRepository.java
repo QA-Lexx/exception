@@ -6,7 +6,7 @@ public class ProductRepository {
         for (int i = 0; i < products.length; i++) {
             tmp[i] = products[i];
         }
-        tmp[tmp.length - 1] = product;
+        tmp[products.length] = product;
         products = tmp;
     }
 
